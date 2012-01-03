@@ -1,0 +1,19 @@
+body{
+	Font-Family : Verdana;
+}
+h3{
+	Font-Size : 12pt;
+	Font-Family : Courier;
+	Text-Align : Center;
+}
+table{
+	Margin-Bottom : 10px; 
+}
+td{
+	Font-Size : 10pt;
+}
+h6{
+	Color : Grey;
+	Text-Align : Right;
+	Margin-Top : 0;
+}
