@@ -1,0 +1,37 @@
+body{
+	Font-Family : Verdana;
+	Font-Size : 8pt;
+}
+table{
+	Margin-Top : 7%;
+	Border : 1px Solid Black;
+	Border-Radius : 10px 10px 10px 10px;
+}
+table:hover{
+	Box-Shadow : 3px 3px 3px 0 Grey;
+}
+tr.top{
+	Height : 60px;
+}
+tr.mid{
+	Height : 30px;
+}
+th.title{
+	Background-Color : Chartreuse;
+	Border-Radius : 10px 10px 0 0;
+	Color : White;
+	Font-Family : Verdana;
+	Font-Size : 22pt;
+}
+.Left, .Right{
+	Border-Bottom : 1px Dotted Black;
+}
+td.Right{
+	Padding-Left : 10px;
+	Font-Size : 8pt;
+	Width : 120px;
+}
+td.Left{
+	Font-Size : 10pt;
+	Width : 150px;
+}
