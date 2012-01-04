@@ -1,0 +1,84 @@
+body
+	{
+	Font-Family : Verdana;
+	}
+table
+	{
+	Width : 320px;
+	Border : 1px Solid Black;
+	Text-Align : Center;
+	Margin-Top : 13%;
+	Border-Radius : 10px 10px 10px 10px;
+	}
+table:hover
+	{
+	Box-Shadow : 3px 3px 3px 0 Black;
+	}
+th
+	{
+	Background : Chartreuse;
+	Font-Family : Georgia;	
+	Color : White;
+	Font-Size : 22pt;
+	Height : 50px;
+	Margin-Top : 5px;
+	Border-Bottom : 1px Solid Black;
+	Border-Radius : 10px 10px 0 0;
+	}
+tr.mid
+	{
+	Height : 60px;
+	}
+td.left
+	{
+	Text-Align : Left;
+	Padding-Left : 12px;
+	Font-Size : 10pt;
+	}
+td.right
+	{
+	Text-Align : Right;
+	Padding-Right : 2px;
+	}
+input.input
+	{
+	Font-Family : Verdana;
+	Font-Size : 12pt;
+	Text-Align :Center;
+	Height : 37px;
+	Width : 150px;
+	Border : 1.5px Solid Grey;
+	Border-Radius : 8px 8px 8px 8px;
+	}
+input.button
+	{
+	Width : 65px;
+	Height : 30px;
+	Font-Size : 10pt;
+	Font-Family : Verdana;
+	Padding-Bottom : 3px;
+	Margin-Right : 5px;
+	Border : 1.5px Solid Grey;
+	Border-Radius : 10px 10px 10px 10px;
+	}
+input:hover
+	{
+	Box-Shadow : 2px 2px 2px 0 Black;
+	}
+a
+	{
+	Font-Size : 12px;
+	Text-Decoration : None;	
+	}
+a:hover
+	{
+	Text-Decoration : Underline;
+	}
+img
+	{
+	Margin-Bottom : 10px;
+}
+img:hover
+	{
+	Cursor : Pointer;
+	}
