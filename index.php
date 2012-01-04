@@ -12,24 +12,26 @@
 		<table height="100%" align="center">
 			<tr height="80%" width="100%">
 				<td valign="top">
-					<h3>
-						Aplikasi Pemesanan Buku
-					</h3>
-					<table align="center" cellpadding="3" cellspacing="0" border="1">
+					<h5 align="right">
+						<a href="form/login.php">
+							Login
+						</a>
+					</h6>
+					<table align="center" cellpadding="3" cellspacing="0" border="0" class="con">
 						<tr class="top">
-							<th class="1" width="40px">
+							<th width="40px" class="colLeft">
 								No.
 							</th>
-							<th class="2" width="220px">
+							<th width="220px" class="col">
 								Judul Buku
 							</th>
-							<th class="3" width="70px">
+							<th width="70px" class="col">
 								Jumlah
 							</th>
-							<th class="4" width="120px">
+							<th width="120px" class="col">
 								Harga
 							</th>
-							<th class="5" width="100px">
+							<th width="100px" class="colRight">
 								Action
 							</th>
 						</tr>
@@ -39,26 +41,31 @@
 							while($arr	=	mysql_fetch_array($que)) {
 						?>
 						<tr class="mid">
-							<td class="1">
+							<td class="rec">
 								<?=$arr["id"]?>
 							</td>
-							<td class="2">
+							<td class="rec">
 								<?=$arr["JudulBuku"]?>
 							</td>
-							<td class="3">
+							<td class="rec">
 								<?=$arr["Jumlah"]?>
 							</td>
-							<td class="4">
+							<td class="rec">
 								Rp. <?=$arr["Harga"]?>,00-	
 							</td class="5">
-							<td align="center">
-								<a href="#">
+							<td align="center" class="rec">
+								<?php
+									echo 
+									"
+								<a href='form/detail.php?id=$arr[id]'>
 									Detail
 								</a>
 									|
-								<a href="#">
+								<a href='form/beli.php?id=$arr[id]'>
 									Beli
 								</a>
+								";
+								?>
 								<!--
 									|
 								<a href="#">
