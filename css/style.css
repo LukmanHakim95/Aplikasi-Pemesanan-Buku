@@ -3,17 +3,48 @@ body{
 }
 h3{
 	Font-Size : 12pt;
-	Font-Family : Courier;
+	Font-Family : Arial;
 	Text-Align : Center;
 }
-table{
+table.con{
 	Margin-Bottom : 10px; 
+	Border : 1px Solid Black;
+	Border-Radius : 10px 10px 0 0;
 }
-td{
+table.con:hover{
+	Box-Shadow : 3px 3px 3px 0 Grey;
+}
+th{
+	Color : White;
+	Background-Color : Chartreuse;
+}
+th.col{
+	Border : 1px Solid Black;
+}
+th.colLeft{
+	Border : 1px Solid Black;
+	Border-Radius : 9px 0 0 0;
+}
+th.colRight{
+	Border : 1px Solid Black;
+	Border-Radius : 0 9px 0 0;
+}
+td.rec{
+	border : 1px Solid Black;
 	Font-Size : 10pt;
+}
+tr.mid:hover{
+	Background-Color : #D3D3D3;
 }
 h6{
 	Color : Grey;
 	Text-Align : Right;
 	Margin-Top : 0;
+}
+a{
+	Text-Decoration : None;
+	Color : Crimson;
+}
+a:hover{
+	Text-Decoration : Underline;
 }
